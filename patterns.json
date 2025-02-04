@@ -2,12 +2,12 @@
   "ah": {
     "sounds": ["ah"],
     "threshold": {
-      ">power": 5,
+      ">power": 6,
       ">probability": 0.93
     },
     "throttle": {
       "eh": 0.15,
-      "oh": 0.15,
+      "oh": 0.05,
       "ah": 0.15
     }
   },
@@ -31,8 +31,7 @@
     "sounds": ["yi"],
     "threshold": {
       ">power": 8,
-      ">probability": 0.96,
-      "times": 2
+      ">probability": 0.96
     },
     "graceperiod": 0.1,
     "grace_threshold": {
@@ -50,9 +49,8 @@
   "eh": {
     "sounds": ["eh", "ay"],
     "threshold": {
-      ">power": 20,
-      ">probability": 0.99,
-      "times": 2
+      ">power": 10,
+      ">probability": 0.99
     },
     "throttle": {
       "ee": 0.1,
@@ -79,7 +77,8 @@
     "sounds": ["guh"],
     "threshold": {
       ">power": 15,
-      ">probability": 0.995
+      ">probability": 0.998,
+      "<f0": 450
     },
     "throttle": {
       "guh": 0.1,
@@ -103,7 +102,8 @@
     },
     "throttle": {
       "tut": 0.2,
-      "t": 0.1
+      "t": 0.1,
+      "ee": 0.1
     }
   },
   "nn": {
@@ -115,15 +115,17 @@
     "throttle": {
       "er": 0.15,
       "nn": 0.15,
-      "guh": 0.15
+      "guh": 0.15,
+      "ee": 0.15,
+      "t": 0.15
     }
   },
   "oh": {
-    "sounds": ["oh", "oo"],
+    "sounds": ["oh"],
     "threshold": {
-      ">power": 16,
-      ">probability": 0.99,
-      "times": 2
+      ">power": 6,
+      ">probability": 0.98,
+      "<f1": 450
     },
     "throttle": {
       "eh": 0.15,
@@ -148,9 +150,8 @@
   "pop": {
     "sounds": ["pop"],
     "threshold": {
-      ">power": 7,
-      ">probability": 0.99,
-      "times": 2
+      ">power": 6,
+      ">probability": 0.99
     },
     "throttle": {
       "pop": 0.15,
@@ -182,8 +183,8 @@
   "tut": {
     "sounds": ["tut"],
     "threshold": {
-      ">power": 17,
-      ">probability": 0.97
+      ">power": 10,
+      ">probability": 0.9
     },
     "throttle": {
       "tut": 0.15,
@@ -195,8 +196,7 @@
     "sounds": ["t"],
     "threshold": {
       ">power": 2,
-      ">probability": 0.98,
-      ">frequency": 100
+      ">probability": 0.98
     },
     "throttle": {
       "t": 0.2,
