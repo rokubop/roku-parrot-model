@@ -13,8 +13,6 @@ from talon_init import TALON_HOME
 PARROT_HOME = TALON_HOME / 'user/roku/roku_parrot_model'
 pattern_path = str(PARROT_HOME / 'patterns.json')
 model_path = str(PARROT_HOME / 'model.pkl')
-# pattern_path = str(PARROT_HOME / 'patterns.json')
-# model_path = str(PARROT_HOME / '2025-06-12-turtle-A.pkl')
 
 ## START PARROT CLASSES ##
 class PatternMatcher:

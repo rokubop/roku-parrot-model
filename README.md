@@ -2,28 +2,55 @@
 
 This is my parrot model + patterns + model history notes.
 
-I don't recommend you use this, because a parrot model should be trained and specific to your own voice.
+A parrot model should be trained and specific to your own voice, so I only recommend this for reference.
 
-| Noises (14) | Typical use |
-|---|---|
-| ah | Left direction or left click drag |
-| oh | Right direction or right click |
-| guh | down direction or modifier for CTRL |
-| eh | forward or up direction or eye tracker positioner |
-| pop | click |
-| cluck | Typically used to enable or disable parrot mode where all 14 noises do something. During game however, I use it as a normal action. |
-| nn | primary action or left click |
-| ee | stopper |
-| er | change mode or exit mode |
-| t | dash or modifier for SHIFT |
-| tut | reset or modifier for ALT |
-| hiss | scroll down or a primary action in game |
-| shush | scroll up or a primary action in game |
+## Sounds (14)
 
-| Negative Noises (2) | Description |
-|---|---|
-| background | moving mic around, breathing, AC, table bumps, keyboard presses, door closing, adjusting things on the table, sitting in chair |
-| cough | throat clears, cough, nose clear, etc. |
+### Non-linguistic sounds (4)
+- pop
+- cluck
+- tut
+- palate
 
+### Linguistic sounds (10)
+- ah
+- oh
+- guh
+- eh
+- nn
+- ee
+- er
+- t
+- sh
+- ss
 
-`parrot_integration.py` file unchanged from original
+### Negative sounds (2)
+- background - moving mic around, breathing, AC, table bumps, keyboard presses, door closing, adjusting things on the table, sitting in chair
+- cough - throat clears, cough, nose clear, etc.
+
+## Testing
+
+Use [Parrot Tester](https://github.com/rokubop/parrot_tester) tool for testing your parrot model.
+
+## parrot_integration.py
+Made one change from the original, for grace thresholds to work.
+
+Old:
+```python
+throttles = {}
+if 'throttle' in pattern:
+    if name not in pattern['throttle']:
+        pattern['throttle'][name] = 0
+    throttles = pattern['throttle']
+```
+
+New:
+```python
+throttles = {}
+if 'throttle' in pattern:
+    # if name not in pattern['throttle']:
+    #     pattern['throttle'][name] = 0
+    throttles = pattern['throttle']
+```
+
+You can check the [Parrot Tester](https://github.com/rokubop/parrot_tester) tool README for more information on this.

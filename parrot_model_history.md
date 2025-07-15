@@ -5,7 +5,7 @@ end: 2023-9-2
 - ss and sh are inconsistent on my shockz, and mod mic
 - cluck keeps waking up when I don't want it to
 
-# 2023-9-2 model-p: CURRENT
+# 2023-9-2 model-p: OLD
 start: 2023-9-22
 end: 2024-2-27
 - ac was on a lot of the time but I don't think it mattered
@@ -17,7 +17,7 @@ end: 2024-2-27
 good consistency 14 unique sounds.
 have to combine ay with eh though. and oh with oo.
 
-# 2023-9-2 model-q: UNUSED
+# 2023-9-2 model-q: OLD
 start: 2023-9-22
 end: 2023-9-22
 - record 3 mics
@@ -28,7 +28,7 @@ end: 2023-9-22
 - new sound k
 VERDICT: recording k conflicts with guh too much, so revert
 
-# 2024-2-27 model-r
+# 2024-2-27 model-r CURRENT
 start: 2024-2-27
 end: present
 recordings appended to model-p with only opencomm2 shokz this time
