@@ -10,9 +10,11 @@ from talon.debug import log_exception
 from talon.experimental.parrot import ParrotSystem, ParrotDelegate, ParrotFrame
 from talon_init import TALON_HOME
 
-PARROT_HOME = TALON_HOME / 'user/roku_parrot_model'
+PARROT_HOME = TALON_HOME / 'user/roku/roku_parrot_model'
 pattern_path = str(PARROT_HOME / 'patterns.json')
 model_path = str(PARROT_HOME / 'model.pkl')
+# pattern_path = str(PARROT_HOME / 'patterns.json')
+# model_path = str(PARROT_HOME / '2025-06-12-turtle-A.pkl')
 
 ## START PARROT CLASSES ##
 class PatternMatcher:
@@ -156,8 +158,8 @@ class PatternBuilder:
 
         throttles = {}
         if 'throttle' in pattern:
-            if name not in pattern['throttle']:
-                pattern['throttle'][name] = 0
+            # if name not in pattern['throttle']:
+            #     pattern['throttle'][name] = 0
             throttles = pattern['throttle']
 
         return NoisePattern(name, pattern['sounds'], match_pattern, lowest_power_thresholds, throttles, detection_after, grace_period)

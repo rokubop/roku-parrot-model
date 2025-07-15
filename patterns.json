@@ -43,7 +43,7 @@
       "tut": 0.2,
       "eh": 0.1,
       "er": 0.1,
-      "guh": 0.2
+      "guh": 0.15
     }
   },
   "eh": {
@@ -65,7 +65,7 @@
     "sounds": ["er"],
     "threshold": {
       ">power": 10,
-      ">probability": 0.9
+      ">probability": 0.8
     },
     "throttle": {
       "nn": 0.15,
@@ -81,30 +81,29 @@
       "<f0": 450
     },
     "throttle": {
-      "guh": 0.1,
+      "guh": 0.15,
       "eh": 0.15,
       "ay": 0.1,
       "ah": 0.1,
-      "oo": 0.1,
-      "k": 0.15
+      "oo": 0.1
     }
   },
   "hiss": {
     "sounds": ["ss"],
     "threshold": {
       ">power": 5,
-      ">probability": 0.91
+      ">probability": 0.985
     },
-    "graceperiod": 0.1,
+    "graceperiod": 0.03,
     "grace_threshold": {
-      ">power": 0.2,
+      ">power": 3,
       ">probability": 0.4
     },
     "throttle": {
       "tut": 0.2,
       "t": 0.15,
       "ee": 0.1,
-      "nn": 0.15
+      "nn": 0.12
     }
   },
   "nn": {
@@ -114,10 +113,10 @@
       ">probability": 0.8
     },
     "throttle": {
-      "er": 0.15,
+      "er": 0.12,
       "nn": 0.15,
-      "guh": 0.15,
-      "ee": 0.15,
+      "guh": 0.12,
+      "ee": 0.12,
       "t": 0.15
     }
   },
@@ -151,8 +150,8 @@
   "pop": {
     "sounds": ["pop"],
     "threshold": {
-      ">power": 6,
-      ">probability": 0.99
+      ">power": 5,
+      ">probability": 0.95
     },
     "throttle": {
       "pop": 0.15,
@@ -169,14 +168,7 @@
       ">power": 5,
       ">probability": 0.91
     },
-    "graceperiod": 0.1,
-    "grace_threshold": {
-      ">power": 0.1,
-      ">probability": 0.4
-    },
     "throttle": {
-      "ch": 0.2,
-      "jj": 0.2,
       "tut": 0.15,
       "t": 0.1
     }
@@ -196,8 +188,8 @@
   "t": {
     "sounds": ["t"],
     "threshold": {
-      ">power": 2,
-      ">probability": 0.98
+      ">power": 3,
+      ">probability": 0.99
     },
     "throttle": {
       "t": 0.2,
