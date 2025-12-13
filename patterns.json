@@ -77,14 +77,14 @@
     "sounds": ["guh"],
     "threshold": {
       ">power": 15,
-      ">probability": 0.998,
+      ">probability": 0.994,
       "<f0": 450
     },
     "throttle": {
       "guh": 0.15,
       "eh": 0.15,
       "ay": 0.1,
-      "ah": 0.1,
+      "ah": 0.12,
       "oo": 0.1
     }
   },
@@ -109,12 +109,13 @@
   "nn": {
     "sounds": ["nn"],
     "threshold": {
-      ">power": 14,
+      ">power": 13.8,
       ">probability": 0.8
     },
     "throttle": {
       "er": 0.12,
       "nn": 0.15,
+      "ah": 0.15,
       "guh": 0.12,
       "ee": 0.12,
       "t": 0.15
