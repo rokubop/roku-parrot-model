@@ -77,7 +77,7 @@
     "sounds": ["guh"],
     "threshold": {
       ">power": 15,
-      ">probability": 0.994,
+      ">probability": 0.99,
       "<f0": 450
     },
     "throttle": {
