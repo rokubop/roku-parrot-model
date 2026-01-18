@@ -1,16 +1,16 @@
 from copy import copy
 from dataclasses import dataclass
-from typing import Callable, Optional, Sequence
+from typing import Callable, Optional
 import json
 import logging
 import time
 
-from talon import Module, resource, events
+from talon import resource, events
 from talon.debug import log_exception
 from talon.experimental.parrot import ParrotSystem, ParrotDelegate, ParrotFrame
 from talon_init import TALON_HOME
 
-PARROT_HOME = TALON_HOME / 'user/roku/roku_parrot_model'
+PARROT_HOME = TALON_HOME / 'user/roku/talon-parrot-roku-model'
 pattern_path = str(PARROT_HOME / 'patterns.json')
 model_path = str(PARROT_HOME / 'model.pkl')
 

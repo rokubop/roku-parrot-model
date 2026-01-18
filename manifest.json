@@ -1,0 +1,23 @@
+{
+  "name": "talon-parrot-roku-model",
+  "title": "Talon Parrot Roku Model",
+  "description": "My personal 14 noise parrot model trained on an OpenComm Shokz 2 and my patterns",
+  "version": "1.0.0",
+  "status": "reference",
+  "namespace": "",
+  "github": "",
+  "preview": "",
+  "author": "Roku",
+  "tags": [
+    "parrot"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "contributes": {},
+  "depends": {},
+  "requiresTalonBeta": false,
+  "_generator": "talon-manifest-generator",
+  "_generatorVersion": "2.0.0",
+  "_generatorRequiresVersionAction": false,
+  "_generatorStrictNamespace": true
+}

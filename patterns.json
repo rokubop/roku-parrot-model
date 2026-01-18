@@ -33,11 +33,6 @@
       ">power": 8,
       ">probability": 0.96
     },
-    "graceperiod": 0.1,
-    "grace_threshold": {
-      ">power": 7,
-      ">probability": 0.6
-    },
     "throttle": {
       "ee": 0.2,
       "tut": 0.2,
@@ -76,9 +71,9 @@
   "guh": {
     "sounds": ["guh"],
     "threshold": {
-      ">power": 15,
-      ">probability": 0.99,
-      "<f0": 450
+      ">power": 13,
+      "<f0": 450,
+      ">probability": 0.98
     },
     "throttle": {
       "guh": 0.15,

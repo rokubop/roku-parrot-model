@@ -1,5 +1,8 @@
 # Roku Parrot Model
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Status](https://img.shields.io/badge/status-reference-blue)
+
 This is my parrot model + patterns + model history notes.
 
 A parrot model should be trained and specific to your own voice, so I only recommend this for reference.
