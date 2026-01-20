@@ -15,9 +15,9 @@
   "devDependencies": {},
   "contributes": {},
   "depends": {},
-  "requiresTalonBeta": false,
   "_generator": "talon-manifest-generator",
   "_generatorVersion": "2.0.0",
   "_generatorRequiresVersionAction": false,
-  "_generatorStrictNamespace": true
+  "_generatorStrictNamespace": true,
+  "_generatorFrozenFields": []
 }

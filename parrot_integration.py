@@ -10,7 +10,7 @@ from talon.debug import log_exception
 from talon.experimental.parrot import ParrotSystem, ParrotDelegate, ParrotFrame
 from talon_init import TALON_HOME
 
-PARROT_HOME = TALON_HOME / 'user/roku/talon-parrot-roku-model'
+PARROT_HOME = TALON_HOME / 'user/roku/talon-parrot-model-roku'
 pattern_path = str(PARROT_HOME / 'patterns.json')
 model_path = str(PARROT_HOME / 'model.pkl')
 
