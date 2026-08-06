@@ -1,0 +1,2 @@
+tut_duration_type=continuous
+tut_min_dbfs=-68.26

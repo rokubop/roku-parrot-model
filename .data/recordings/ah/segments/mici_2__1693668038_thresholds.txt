@@ -1,0 +1,2 @@
+ah_duration_type=continuous
+ah_min_dbfs=-44.08

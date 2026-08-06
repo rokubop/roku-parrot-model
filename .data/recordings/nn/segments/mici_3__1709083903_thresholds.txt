@@ -1,0 +1,2 @@
+nn_duration_type=continuous
+nn_min_dbfs=-62.71

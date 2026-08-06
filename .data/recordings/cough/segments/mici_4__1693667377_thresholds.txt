@@ -1,0 +1,2 @@
+cough_duration_type=continuous
+cough_min_dbfs=-41.23

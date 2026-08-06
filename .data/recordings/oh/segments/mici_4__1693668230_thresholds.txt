@@ -1,0 +1,2 @@
+oh_duration_type=continuous
+oh_min_dbfs=-36.44

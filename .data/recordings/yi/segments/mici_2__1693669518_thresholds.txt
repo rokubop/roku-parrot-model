@@ -1,0 +1,2 @@
+yi_duration_type=discrete
+yi_min_dbfs=-30.15

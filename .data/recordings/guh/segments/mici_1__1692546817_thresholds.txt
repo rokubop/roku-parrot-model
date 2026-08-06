@@ -1,0 +1,2 @@
+guh_duration_type=continuous
+guh_min_dbfs=-31.68

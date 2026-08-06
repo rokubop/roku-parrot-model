@@ -1,0 +1,2 @@
+alveolar click_duration_type=discrete
+alveolar click_min_dbfs=-53.45

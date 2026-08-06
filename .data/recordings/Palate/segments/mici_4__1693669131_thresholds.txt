@@ -1,0 +1,2 @@
+palate_duration_type=continuous
+palate_min_dbfs=-69.87

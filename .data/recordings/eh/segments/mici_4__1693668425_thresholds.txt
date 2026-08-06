@@ -1,0 +1,2 @@
+eh_duration_type=continuous
+eh_min_dbfs=-56.19

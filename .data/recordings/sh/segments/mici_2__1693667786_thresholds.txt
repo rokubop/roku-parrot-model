@@ -1,0 +1,2 @@
+sh_duration_type=continuous
+sh_min_dbfs=-54.03

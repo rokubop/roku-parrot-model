@@ -1,0 +1,2 @@
+ay_duration_type=discrete
+ay_min_dbfs=-27.67

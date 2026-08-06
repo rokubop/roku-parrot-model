@@ -1,0 +1,2 @@
+cough_duration_type=
+cough_min_dbfs=0.0

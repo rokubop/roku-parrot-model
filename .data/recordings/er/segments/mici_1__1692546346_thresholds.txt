@@ -1,0 +1,2 @@
+er_duration_type=discrete
+er_min_dbfs=-29.4
