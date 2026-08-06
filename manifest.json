@@ -1,11 +1,11 @@
 {
-  "name": "talon-parrot-roku-model",
-  "title": "Talon Parrot Roku Model",
+  "name": "talon-parrot-model-roku",
+  "title": "Talon Parrot Model Roku",
   "description": "My personal 14 noise parrot model trained on an OpenComm Shokz 2 and my patterns",
   "version": "1.0.0",
   "status": "reference",
   "namespace": "",
-  "github": "",
+  "github": "https://github.com/rokubop/talon-parrot-model-roku",
   "preview": "",
   "author": "Roku",
   "tags": [
