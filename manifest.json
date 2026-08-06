@@ -1,7 +1,7 @@
 {
   "name": "talon-parrot-model-roku",
   "title": "Talon Parrot Model Roku",
-  "description": "My personal 14 noise parrot model trained on an OpenComm Shokz 2 and my patterns",
+  "description": "My personal 14 noise parrot model trained on an OpenComm Shokz 2, plus the raw recordings and patterns file",
   "version": "1.0.0",
   "status": "reference",
   "namespace": "",

@@ -1,9 +1,9 @@
-# Roku Parrot Model
+# Roku's Parrot Model + Recordings + Patterns
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Status](https://img.shields.io/badge/status-reference-blue)
 
-This is my parrot model + patterns + model history notes.
+My 14 noise parrot model, the raw recordings it was trained on (`.data/recordings/`), `patterns.json`, and model history notes.
 
 A parrot model should be trained and specific to your own voice, so I only recommend this for reference.
 
@@ -57,3 +57,6 @@ if 'throttle' in pattern:
 ```
 
 You can check the [Parrot Tester](https://github.com/rokubop/parrot_tester) tool README for more information on this.
+
+## More Talon packages
+Check out my other Talon packages for UI, mouse control, input mapping, and more at [talon-hub-roku](https://github.com/rokubop/talon-hub-roku).
